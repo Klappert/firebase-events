@@ -1,17 +1,28 @@
 {
-  "name": "firebase-events",
-  "version": "1.0.0",
-  "description": "A better event routing and declartion system on top of Firebase",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Firebase",
-    "Events",
-    "Klappert",
-    "Weijland"
-  ],
-  "author": "W.C.J. Weijland",
-  "license": "ISC"
+	"name": "@klappert/firebase-events",
+	"version": "1.0.0",
+	"description": "A better event routing and declaration system on top of Firebase",
+	"main": "lib/index.js",
+	"scripts": {
+		"test": "node lib/tests/index.js",
+		"start": "node lib/index.js"
+	},
+	"keywords": [
+		"Firebase",
+		"Events",
+		"Klappert",
+		"Weijland"
+	],
+	"author": "W.C.J. Weijland",
+	"license": "ISC",
+	"repository": "git://github.com/klappert/firebase-events.git",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
+	"devDependencies": {
+		"@types/node": "^14.0.1",
+		"firebase-admin": "^8.12.1",
+		"firebase-functions": "^3.6.1",
+		"typescript": "^3.9.2"
+	}
 }
