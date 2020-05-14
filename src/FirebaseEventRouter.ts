@@ -16,6 +16,9 @@ export class FirebaseEventRouter {
         this.events = []
     }
 
+    /**
+     * Sets the exports to a certain object
+     */
     public setExports = (exports: any) => {
         this.exports = exports
     }
