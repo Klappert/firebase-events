@@ -9,8 +9,10 @@
         "sourceMap": true,
         "allowJs": true,
         "target": "es6",
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "declaration": true
     },
     "compileOnSave": true,
-    "include": [ "src" ]
+    "include": [ "src" ],
+    "declaration": true
 }

@@ -3,6 +3,7 @@
 	"version": "0.0.3",
 	"description": "A better event routing and declaration system on top of Firebase",
 	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
 	"scripts": {
 		"test": "node lib/tests/index.js",
 		"start": "node lib/index.js"
@@ -24,5 +25,6 @@
 		"firebase-admin": "^8.12.1",
 		"firebase-functions": "^3.6.1",
 		"typescript": "^3.9.2"
-	}
+	},
+	"prepublish": "tsc"
 }
